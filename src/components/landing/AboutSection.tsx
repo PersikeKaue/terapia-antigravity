@@ -119,14 +119,15 @@ export function AboutSection() {
                                 nos momentos mais obscuros.
                             </p>
                             <p className="hover:text-white/90 transition-colors duration-300">
-                                Hoje, com mais de{" "}
-                                <strong className="text-white font-medium">40 anos de atuação em Assistência Social</strong>, aplico toda essa sensibilidade
-                                humana no trabalho com as Mesas Radiônicas e terapias energéticas.
+                                Foram mais de{" "}
+                                <strong className="text-white font-medium">40 anos dedicados à Assistência Social</strong>.
+                                Toda essa vivência me trouxe uma bagagem profunda de escuta e sensibilidade humana, que hoje
+                                é a base do meu amparo e direcionamento através das Mesas Radiônicas e terapias energéticas.
                             </p>
                             <p className="hover:text-white/90 transition-colors duration-300">
-                                Minha trajetória de 4 décadas escutando e acompanhando pessoas em situações delicadas
-                                me deu o dom de perceber o que a sua alma não consegue dizer. Cada atendimento
-                                é único, criado especialmente para você — porque cada vida é singular.
+                                Essas 4 décadas acompanhando pessoas em situações delicadas me deram o dom de perceber
+                                o que a sua alma não consegue dizer. Aqui, o seu atendimento é único, criado
+                                especialmente para você — porque cada vida é singular.
                             </p>
                         </motion.div>
 
