@@ -148,12 +148,12 @@ export function AboutSection() {
                                 style={{ originY: 0 }}
                             />
                             <p className="font-display text-2xl lg:text-3xl leading-relaxed italic text-white/90 pl-6">
-                                "Não é sobre adivinhar o futuro. É sobre alinhar sua frequência hoje para que o amanhã
+                                &quot;Não é sobre adivinhar o futuro. É sobre alinhar sua frequência hoje para que o amanhã
                                 seja{" "}
                                 <span className="gold-gradient-text inline-block hover:scale-105 transition-transform duration-300">
                                     inevitavelmente próspero.
                                 </span>
-                                "
+                                &quot;
                             </p>
                         </motion.div>
                     </div>
