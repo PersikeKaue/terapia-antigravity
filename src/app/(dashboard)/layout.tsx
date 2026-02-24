@@ -2,7 +2,6 @@ import Link from "next/link";
 import {
     Zap,
     LayoutDashboard,
-    BookOpen,
     User,
     LogOut,
     Star,

@@ -18,8 +18,6 @@ export default async function DashboardPage() {
     const session = await auth();
     if (!session?.user?.id) redirect("/login");
 
-    const userName = session.user.name?.split(" ")[0] ?? "Paciente";
-
     const purchases = await prisma.purchase.findMany({
         where: { userId: session.user.id, status: "PAID" },
         include: { product: { include: { materials: { select: { id: true } } } } },

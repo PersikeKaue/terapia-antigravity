@@ -4,15 +4,10 @@ import { notFound, redirect } from "next/navigation";
 import { VideoPlayer } from "@/components/dashboard/VideoPlayer";
 import Link from "next/link";
 import {
-    Download,
-    FileText,
     ArrowLeft,
-    Lock,
-    Play,
-    BookOpen,
     Sparkles,
-    Star,
-    Shield,
+    Lock,
+    Play
 } from "lucide-react";
 
 interface MesaPageProps {
@@ -26,12 +21,6 @@ export async function generateMetadata({ params }: MesaPageProps) {
         select: { name: true },
     });
     return { title: product?.name ?? "Mesa Radiônica | Persike Terapias" };
-}
-
-function formatFileSize(bytes: number): string {
-    if (bytes < 1024) return `${bytes} B`;
-    if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(0)} KB`;
-    return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
 }
 
 export default async function MesaDetailPage({ params }: MesaPageProps) {
