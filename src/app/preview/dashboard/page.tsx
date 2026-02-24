@@ -2,7 +2,6 @@ import Link from "next/link";
 import {
     LayoutDashboard,
     ShoppingBag,
-    BookOpen,
     User,
     LogOut,
     Star,
@@ -11,7 +10,6 @@ import {
     PlayCircle,
     ArrowRight,
     Sparkles,
-    Package,
     Lock,
 } from "lucide-react";
 

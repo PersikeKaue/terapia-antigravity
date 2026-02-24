@@ -17,14 +17,6 @@ function getDynamicGreeting() {
 }
 
 // Stable particles — generated once outside the component
-const PARTICLES = Array.from({ length: 15 }, (_, i) => ({
-    id: i,
-    top: `${((i * 37 + 13) % 100)}%`,
-    left: `${((i * 53 + 7) % 100)}%`,
-    duration: 6 + (i % 5),
-    delay: (i % 6) * 0.9,
-    scale: 1 + (i % 3) * 0.6,
-}));
 
 const textVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -38,7 +30,6 @@ export function HeroSection() {
     const { scrollYProgress } = useScroll({ target: containerRef, offset: ["start start", "end start"] });
     const yText = useTransform(scrollYProgress, [0, 1], [0, 200]);
     const opacityText = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
-    const scaleBg = useTransform(scrollYProgress, [0, 1], [1, 1.2]);
 
     useEffect(() => { setGreeting(getDynamicGreeting()); }, []);
 

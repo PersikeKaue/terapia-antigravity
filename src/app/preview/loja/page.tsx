@@ -2,7 +2,6 @@ import Link from "next/link";
 import {
     LayoutDashboard,
     ShoppingBag,
-    BookOpen,
     User,
     LogOut,
     Star,

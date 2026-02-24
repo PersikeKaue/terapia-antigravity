@@ -2,11 +2,8 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
-    Download,
-    FileText,
     ArrowLeft,
     Play,
-    BookOpen,
     Sparkles,
     Leaf,
     LayoutDashboard,
