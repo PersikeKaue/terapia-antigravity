@@ -22,8 +22,8 @@ export default function LandingPage() {
                 <WhatIsThisSection />
                 <ServicesSection />
                 <TestimonialsSection />
-                <FAQSection />
                 <OfferSection />
+                <FAQSection />
             </main>
 
             <Footer />
